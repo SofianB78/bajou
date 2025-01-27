@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription pour PSG-STUTTGART</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #f3f3f3;
+        
+        
+        }
+        .form-container {
+            width: 400px;
+            margin: 50px auto;
+            background-color: #e4e4e4;
+            background-image: url(image/img2.jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            justify-content: center;
+
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            background-color: #8d92ad;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group input[type="checkbox"],
+        .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+        .form-actions {
+            text-align: center;
+        }
+        .form-actions button {
+            background-color: #2b387b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-actions button:hover {
+            background-color: #3c4fa3;
+        }
+    </style>
+</head>
+<body>
+<background-image></background-image>
+<div class="form-container">
+    <h1>Inscription pour PSG Stuttgart</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div class="form-group">
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" required>
+        </div>
+        <div class="form-group">
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" required>
+        </div>
+        <div class="form-group">
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required>
+        </div>
+        <div class="form-group">
+            <label>Confirmer l'inscription :</label>
+            <input type="checkbox" id="lettre" name="lettre" checked>
+            <label for="lettre">Je souhaite être informé des prochains matchs</label><br>
+            <input type="checkbox" id="offres" name="offres">
+            <label for="offres">J'accepte de soutenir le créateur en versant un petit % de mon salaire brut
+        </div>
+
+        <div class="form-actions">
+            <a href="mailto:sofianbajou7878@outlook.fr">
+            <button type="submit">S'inscrire</button>
+        </a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
